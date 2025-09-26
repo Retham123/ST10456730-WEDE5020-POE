@@ -15,7 +15,7 @@ services.html
 enquiry.html  
 contact.html  
 
-## Screenshots (to include before submission)
+## Screenshots
 Desktop: docs/screenshots/desktop.png  
 Tablet: docs/screenshots/tablet.png  
 Mobile: docs/screenshots/mobile.png  
