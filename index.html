@@ -1,19 +1,56 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>051 IT Solutions - Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home - 051 IT Solutions</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to 051 IT Solutions</h1>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="services.html">Services</a> |
-    <a href="enquiry.html">Enquiry</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
-  <h2>Your IT Partner in Bloemfontein</h2>
-  <p>We build websites and support SMEs with simple, effective IT solutions.</p>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.svg" alt="051 logo">051 IT Solutions
+      </a>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Professional IT Solutions for SMEs</h1>
+      <p>051 IT Solutions provides affordable IT services for businesses in the Free State and beyond.</p>
+      <a href="services.html" class="btn">View Services</a>
+    </section>
+
+    <section class="features grid-3">
+      <article class="card">
+        <h2>Web Development</h2>
+        <p>Modern, responsive websites designed to boost your online presence.</p>
+      </article>
+      <article class="card">
+        <h2>IT Support</h2>
+        <p>Reliable technical support and troubleshooting for small businesses.</p>
+      </article>
+      <article class="card">
+        <h2>Cloud Solutions</h2>
+        <p>Secure and scalable cloud services for storage and collaboration.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 051 IT Solutions | info@051itsolutions.co.za</p>
+    </div>
+  </footer>
 </body>
 </html>
