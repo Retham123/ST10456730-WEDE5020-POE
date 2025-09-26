@@ -16,6 +16,4 @@ enquiry.html
 contact.html  
 
 ## Screenshots
-Desktop: docs/screenshots/desktop.png  
-Tablet: docs/screenshots/tablet.png  
-Mobile: docs/screenshots/mobile.png  
+Desktop: screenshots/desktop.png  
