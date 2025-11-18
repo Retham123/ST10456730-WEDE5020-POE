@@ -4,7 +4,7 @@
 - Added JavaScript for mobile navigation toggle  
 - Implemented form validation for Enquiry and Contact forms  
 - Added user feedback messages on successful submission   
-- Responsive design tested ondesktop  
+- Responsive design tested on desktop  
 
 ## Sitemap
 - index.html  
