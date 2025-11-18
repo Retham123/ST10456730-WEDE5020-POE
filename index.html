@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Home - 051 IT Solutions</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -13,7 +14,8 @@
         <img src="assets/img/logo.svg" alt="051 logo">051 IT Solutions
       </a>
       <nav class="site-nav">
-        <ul>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul id="nav-links">
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
@@ -27,7 +29,7 @@
   <main class="container">
     <section class="hero">
       <h1>Professional IT Solutions for SMEs</h1>
-      <p>051 IT Solutions provides affordable IT services for businesses in the Free State and beyond.</p>
+      <p>Affordable IT services for businesses in the Free State and beyond.</p>
       <a href="services.html" class="btn">View Services</a>
     </section>
 

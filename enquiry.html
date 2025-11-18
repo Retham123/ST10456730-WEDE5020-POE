@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Enquiry - 051 IT Solutions</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-wrap">
       <a class="logo" href="index.html"><img src="assets/img/logo.svg" alt="051 logo">051 IT Solutions</a>
       <nav class="site-nav">
-        <ul>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul id="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
@@ -24,18 +26,20 @@
 
   <main class="container">
     <h1>Service Enquiry</h1>
-    <form class="contact-form">
-      <label>Name<input type="text" name="name" required></label>
-      <label>Email<input type="email" name="email" required></label>
+    <form class="contact-form" id="enquiry-form">
+      <label>Name<input type="text" id="name" required></label>
+      <label>Email<input type="email" id="email" required></label>
       <label>Service
-        <select name="service">
+        <select id="service" required>
+          <option value="">Select...</option>
           <option value="web">Web Development</option>
           <option value="support">IT Support</option>
           <option value="cloud">Cloud Solutions</option>
         </select>
       </label>
-      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <label>Message<textarea id="message" rows="4" required></textarea></label>
       <button class="btn" type="submit">Submit</button>
+      <p id="form-feedback" class="feedback"></p>
     </form>
   </main>
 
